@@ -14,8 +14,8 @@ const app = express();
 // Подлключение к БД movies-explorer
 mongoose.connect(DB_ADRESS, {
   useNewUrlParser: true,
-  useCreateIndex: true,
-  useFindAndModify: false,
+  // useCreateIndex: true,
+  // useFindAndModify: false,
   useUnifiedTopology: true,
 });
 
